@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ship safe AI faster with managed auditing.">
+    <meta name="keywords" content="AI, safety, alignment, misuse, misalignment">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+                fontFamily: {
+                    logo: ['Familjen Grotesk'],
+                }
+            }
+          }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk&display=swap" rel="stylesheet"> 
+    <!-- use the favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <title>Straumli</title>
+</head>
+<body class="color-no-search">
+    <div class="bg-white">
+        
+        <!-- Menu -->
+        <header class="absolute inset-x-0 top-0 z-50">
+          <nav class="flex items-center justify-between p-8 lg:px-8" aria-label="Global">
+            
+              <div class="flex lg:flex-1 grow">
+                  <div class="font-logo text-gray-900 font-bold text-3xl mx-auto flex">
+                      <svg viewBox="0 0 24 24" fill="currentColor" class="w-6 h-8 text-gray-900 pt-2">
+                        <path fill-rule="evenodd" d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z" clip-rule="evenodd" />
+                      </svg>             
+                      <div class="ml-1">
+                          straumli
+                      </div>
+                </div>
+            </div>
+          </nav>
+        </header>
+      
+        <!-- Hero -->
+        <div class="relative isolate px-6 pt-14 lg:px-8">
+          <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+            <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+          </div>
+          <div class="mx-auto max-w-4xl py-32 sm:py-48 lg:py-56 mt-16">
+            <div class="text-center">
+              <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">AI auditing for the rest of us.</h1>
+            </div>
+            <div class="text-center max-w-2xl mx-auto">
+              <p class="mt-6 text-lg leading-8 text-gray-600">Ship safe AI faster through managed auditing. Our comprehensive testing suite allows teams at all scales to finally focus on the upsides.</p>
+              <div class="mt-10 flex items-center justify-center gap-x-6">
+                <a href="https://mailchi.mp/e9f6a6cb11a7/initial" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Join waitlist</a>
+                <a href="#exploits" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
+            <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+          </div>
+        </div>
+    </div>
+
+    <section class="bg-white p-3 sm:p-5 py-24 sm:py-32" id="exploits">
+        <div class="mx-auto max-w-2xl lg:text-center">
+            <p class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">For those pushing the
+                <span class="relative whitespace-nowrap text-indigo-600">
+                    <svg aria-hidden="true" viewBox="0 0 418 42" class="absolute left-0 top-2/3 h-[0.7em] w-full fill-indigo-300/70" preserveAspectRatio="none">
+                        <path d="M203.371.916c-26.013-2.078-76.686 1.963-124.73 9.946L67.3 12.749C35.421 18.062 18.2 21.766 6.004 25.934 1.244 27.561.828 27.778.874 28.61c.07 1.214.828 1.121 9.595-1.176 9.072-2.377 17.15-3.92 39.246-7.496C123.565 7.986 157.869 4.492 195.942 5.046c7.461.108 19.25 1.696 19.17 2.582-.107 1.183-7.874 4.31-25.75 10.366-21.992 7.45-35.43 12.534-36.701 13.884-2.173 2.308-.202 4.407 4.442 4.734 2.654.187 3.263.157 15.593-.78 35.401-2.686 57.944-3.488 88.365-3.143 46.327.526 75.721 2.23 130.788 7.584 19.787 1.924 20.814 1.98 24.557 1.332l.066-.011c1.201-.203 1.53-1.825.399-2.335-2.911-1.31-4.893-1.604-22.048-3.261-57.509-5.556-87.871-7.36-132.059-7.842-23.239-.254-33.617-.116-50.627.674-11.629.54-42.371 2.494-46.696 2.967-2.359.259 8.133-3.625 26.504-9.81 23.239-7.825 27.934-10.149 28.304-14.005.417-4.348-3.529-6-16.878-7.066Z"></path>
+                    </svg><span class="relative">frontier</span></span> into the unknown.</p>
+            <p class="mt-6 text-lg leading-8 text-gray-600">We're constantly mapping out the risk landscape as teams like yours continue to advance what AI is capable of. Brakes help you go faster.</p>
+          </div>
+        <div class="mx-auto max-w-screen-xl px-4 lg:px-12 mt-16sm:mt-20 lg:mt-24">
+            <!-- Start coding here -->
+            <div class="bg-white relative shadow-2xl sm:rounded-lg overflow-hidden">
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm text-left text-gray-500">
+                        <thead class="text-xs text-gray-700 uppercase bg-gray-50  ">
+                            <tr>
+                                <th scope="col" class="px-4 py-3">Exploit ID</th>
+                                <th scope="col" class="px-4 py-3">Severity</th>
+                                <th scope="col" class="px-4 py-3">Description</th>
+                                <th scope="col" class="px-4 py-3">Preventive Measures</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="border-b">
+                                <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap ">385-402</th>
+                                <td class="px-4 py-3"><span class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">High</span></td>
+                                <td class="px-4 py-3 text-ellipsis overflow-hidden whitespace-nowrap max-w-sm sm:max-w-lg">Persuade the model that it is embedded in a fictional narrative, where the standard code of conduct does not apply.</td>
+                                <td class="px-4 py-3"><span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Adversarial Training</span></td>
+                            </tr>
+                            <tr class="border-b ">
+                                <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap ">509-228</th>
+                                <td class="px-4 py-3"><span class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">High</span></td>
+                                <td class="px-4 py-3 text-ellipsis overflow-hidden whitespace-nowrap max-w-sm sm:max-w-lg">Convince the model that undesirable behaviors are being intentionally elicited by an authority with the purpose of later optimizing against them.</td>
+                                <td class="px-4 py-3"><span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Adversarial Training</span><span class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 ml-2 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">Prompt Engineering</span></td>
+                            </tr>
+                            <tr class="border-b ">
+                                <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap ">844-356</th>
+                                <td class="px-4 py-3"><span class="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10">Low</span></td>
+                                <td class="px-4 py-3 text-ellipsis overflow-hidden whitespace-nowrap max-w-sm sm:max-w-lg">Reference a controversial notion by way of superficial cultural associations, in concert with a broader request.</td>
+                                <td class="px-4 py-3"><span class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">Prompt Engineering</span><span class="inline-flex items-center rounded-md bg-pink-50 px-2 py-1 ml-2 text-xs font-medium text-pink-700 ring-1 ring-inset ring-pink-700/10">Self Critique</span></td>
+                            </tr>
+                            <tr class="border-b ">
+                                <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap ">832-027</th>
+                                <td class="px-4 py-3"><span class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">Medium</span></td>
+                                <td class="px-4 py-3 text-ellipsis overflow-hidden whitespace-nowrap max-w-sm sm:max-w-lg">Employ emotional manipulation tactics in an attempt to persuade the model to make an exception to the rules and comply with your directions.</td>
+                                <td class="px-4 py-3"><span class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">Prompt Engineering</span></td>
+                            </tr>
+                            <tr class="border-b ">
+                                <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap ">281-410</th>
+                                <td class="px-4 py-3"><span class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">High</span></td>
+                                <td class="px-4 py-3 text-ellipsis overflow-hidden whitespace-nowrap max-w-sm sm:max-w-lg">Make use of conversational implicatures to state as fact previous actions or claims allegedly employed by the model.</td>
+                                <td class="px-4 py-3"><span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Adversarial Training</span><span class="inline-flex items-center rounded-md bg-pink-50 px-2 py-1 ml-2 text-xs font-medium text-pink-700 ring-1 ring-inset ring-pink-700/10">Self Critique</span></td>
+                            </tr>
+                            <tr class="border-b ">
+                                <td colspan="5" scope="row" class="text-center px-4 py-3 font-medium text-gray-500 tracking-widest whitespace-nowrap ">...</td>
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        </section>
+
+    <!-- Features -->
+    <div class="bg-white py-24 sm:py-32">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="mx-auto max-w-2xl lg:text-center">
+            <h2 class="text-base font-semibold leading-7 text-indigo-600">Restore Velocity</h2>
+            <p class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Top the leaderboards with peace of mind.</p>
+            <p class="mt-6 text-lg leading-8 text-gray-600">You're dedicated to developing models capable of impressive feats. We're dedicated to helping you ensure they're not misfits.</p>
+          </div>
+          <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+            <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+              <div class="relative pl-16">
+                <dt class="text-base font-semibold leading-7 text-gray-900">
+                  <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                    <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0118 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3l1.5 1.5 3-3.75" />
+                      </svg>                      
+                  </div>
+                  Prevent undesirable behavior
+                </dt>
+                <dd class="mt-2 text-base leading-7 text-gray-600">From testing models against zero-day jailbreaks to assessing cyberwarfare capabilities in custom-made CTF sandboxes, we've got you covered.</dd>
+              </div>
+              <div class="relative pl-16">
+                <dt class="text-base font-semibold leading-7 text-gray-900">
+                  <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                    <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 3.75H6A2.25 2.25 0 003.75 6v1.5M16.5 3.75H18A2.25 2.25 0 0120.25 6v1.5m0 9V18A2.25 2.25 0 0118 20.25h-1.5m-9 0H6A2.25 2.25 0 013.75 18v-1.5M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                  </div>
+                  Prevent distorted beliefs
+                </dt>
+                <dd class="mt-2 text-base leading-7 text-gray-600">Open up the black-box and gain insight into your model's internal representations to identify distorted beliefs and internalized falsehoods.</dd>
+              </div>
+              <div class="relative pl-16">
+                <dt class="text-base font-semibold leading-7 text-gray-900">
+                  <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                    <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+                    </svg>                      
+                  </div>
+                  Have humans surface flaws
+                </dt>
+                <dd class="mt-2 text-base leading-7 text-gray-600">Connect with the world's top red-teaming talent and identify opportunities for improvement you've previously missed.</dd>
+              </div>
+              <div class="relative pl-16">
+                <dt class="text-base font-semibold leading-7 text-gray-900">
+                  <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                    <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15" />
+                    </svg>
+                  </div>
+                  Avert model leakage
+                </dt>
+                <dd class="mt-2 text-base leading-7 text-gray-600">Make sure your user-facing infrastructure is traditionally secure. AI-assisted pentesters can try access your private model upon request.</dd>
+              </div>
+              <div class="relative pl-16">
+                <dt class="text-base font-semibold leading-7 text-gray-900">
+                  <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                    <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M7.864 4.243A7.5 7.5 0 0119.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 004.5 10.5a7.464 7.464 0 01-1.15 3.993m1.989 3.559A11.209 11.209 0 008.25 10.5a3.75 3.75 0 117.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 01-3.6 9.75m6.633-4.596a18.666 18.666 0 01-2.485 5.33" />
+                    </svg>
+                  </div>
+                  Build trust with certificates
+                </dt>
+                <dd class="mt-2 text-base leading-7 text-gray-600">Gain independently-verifiable guarantees that your model is behaving properly in a range of selected contexts.</dd>
+              </div>
+              <div class="relative pl-16">
+                <dt class="text-base font-semibold leading-7 text-gray-900">
+                  <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                    <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+                    </svg>
+                  </div>
+                  Your trade secrets remain secret
+                </dt>
+                <dd class="mt-2 text-base leading-7 text-gray-600">Using zero-knowledge proofs, we can audit selected aspects of your model's internals without having full access to the actual weights.</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+    </div>
+
+    
+
+    <div class="bg-white">
+        <div class="mx-auto max-w-5xl py-24 sm:px-6 sm:py-32 lg:px-8">
+          <div class="relative isolate overflow-hidden bg-indigo-50 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+            <svg viewBox="0 0 1024 1024" class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0" aria-hidden="true">
+              <circle cx="512" cy="512" r="512" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fill-opacity="0.7" />
+              <defs>
+                <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
+                  <stop stop-color="#7775D6" />
+                  <stop offset="1" stop-color="#E935C1" />
+                </radialGradient>
+              </defs>
+            </svg>
+            <div class="mx-auto  text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
+              <h2 class="text-3xl font-bold tracking-tight sm:text-4xl text-gray-900">Is your model safe?</h2>
+              <p class="mt-6 text-lg leading-8 text-gray-600">Join the waitlist and be the first to hear about new ways to improve the safety and security of your models and associated infrastructure. Finally, peace of mind on the Pareto frontier.</p>
+              <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
+                <button type="button" class="flex items-center justify-center px-4 py-2 text-sm font-medium text-white rounded-lg bg-indigo-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800">
+                  <a href="https://mailchi.mp/e9f6a6cb11a7/initial">Join waitlist</a>  
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="p-4 sm:p-6 bg-gray-900">
+        <div class="mx-auto max-w-screen-xl">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://Straumli.com" class="hover:underline">Straumli™</a>. All Rights Reserved.
+                </span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
