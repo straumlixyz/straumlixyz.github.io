@@ -69,147 +69,23 @@
                         </button>
                     </div>
                     <div id="mega-menu-icons"
-                        class="items-center justify-between hidden w-full md:flex md:w-auto md:order-2 bg-white md:bg-inherit mt-2 md:mt-0">
-                        <ul class="flex flex-col mt-0 font-medium md:flex-row sm:mt-0 md:space-x-8 rtl:space-x-reverse">
+                        class="items-center justify-between hidden w-full md:flex md:w-auto md:order-2 bg-white md:bg-inherit mt-4 md:mt-0">
+                        <ul
+                            class="flex flex-col mt-0 font-medium md:flex-row sm:mt-0 md:space-x-8 rtl:space-x-reverse shadow-2xl rounded-md">
                             <li>
                                 <a href="/"
                                     class="block py-2 px-3 text-cyan-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-cyan-600 md:p-0      "
                                     aria-current="page">Home</a>
                             </li>
                             <li>
-                                <button id="mega-menu-icons-dropdown-button"
-                                    data-dropdown-toggle="mega-menu-icons-dropdown"
-                                    class="flex items-center justify-between w-full py-2 px-3 font-medium text-cyan-900 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-cyan-600 md:p-0      ">
-                                    Product
-                                    <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                                        fill="none" viewBox="0 0 10 6">
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                            stroke-width="2" d="m1 1 4 4 4-4" />
-                                    </svg>
-                                </button>
-                                <div id="mega-menu-icons-dropdown"
-                                    class="absolute z-10 grid hidden w-auto grid-cols-1 text-sm bg-white border border-gray-100 rounded-lg shadow-2xl">
-                                    <div class="p-2 text-gray-900 w-96 md:w-fit md:max-w-xs">
-                                        <ul aria-labelledby="mega-menu-icons-dropdown-button">
-                                            <li>
-                                                <a href="/#cta">
-                                                    <div
-                                                        class="flex items-center text-cyan-600 group hover:bg-cyan-100 p-1 rounded-lg">
-                                                        <div class="rounded-md bg-cyan-300 p-3 m-1">
-                                                            <svg class="w-5 h-5 text-cyan-600 drop-shadow-2xl mx-auto"
-                                                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                                                                fill="currentColor" viewBox="0 0 20 20">
-                                                                <path
-                                                                    d="M8 15.5a7.5 7.5 0 1 0 0-15 7.5 7.5 0 0 0 0 15Zm11.707 2.793-4-4a1 1 0 0 0-1.414 1.414l4 4a1 1 0 0 0 1.414-1.414Z" />
-                                                            </svg>
-                                                        </div>
-                                                        <div class="columns-1 ml-3">
-                                                            <div class="font-bold">
-                                                                evaluations
-                                                            </div>
-                                                            <div class="font-normal">
-                                                                Assess model safety.
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a>
-                                                    <div class="flex items-center text-gray-400 group p-1 rounded-lg">
-                                                        <div class="rounded-md bg-gray-200 p-3 m-1">
-                                                            <svg class="w-5 h-5 text-gray-400 drop-shadow-2xl mx-auto"
-                                                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                                                                fill="currentColor" viewBox="0 0 16 18">
-                                                                <path
-                                                                    d="M8 18A18.55 18.55 0 0 1 0 3l8-3 8 3a18.549 18.549 0 0 1-8 15Z" />
-                                                            </svg>
-                                                        </div>
-                                                        <div class="columns-1 ml-3">
-                                                            <div class="font-bold">
-                                                                upgrades
-                                                            </div>
-                                                            <div class="font-normal">
-                                                                Improve model safety.
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a>
-                                                    <div class="flex items-center text-gray-400 group p-1 rounded-lg">
-                                                        <div class="rounded-md bg-gray-200 p-3 m-1">
-                                                            <svg class="w-5 h-5 text-gray-400 drop-shadow-2xl mx-auto"
-                                                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                                                                fill="currentColor" viewBox="0 0 14 20">
-                                                                <path
-                                                                    d="M13 20a1 1 0 0 1-.64-.231L7 15.3l-5.36 4.469A1 1 0 0 1 0 19V2a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v17a1 1 0 0 1-1 1Z" />
-                                                            </svg>
-                                                        </div>
-                                                        <div class="columns-1 ml-3">
-                                                            <div class="font-bold">
-                                                                certificates
-                                                            </div>
-                                                            <div class="font-normal">
-                                                                Attest model safety.
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a>
-                                                    <div class="flex items-center text-gray-400 group p-1 rounded-lg">
-                                                        <div class="rounded-md bg-gray-200 p-3 m-1">
-                                                            <svg class="w-5 h-5 text-gray-400 drop-shadow-2xl mx-auto"
-                                                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                                                                fill="currentColor" viewBox="0 0 20 16">
-                                                                <path
-                                                                    d="m19.822 7.431-4.846-7A1 1 0 0 0 14.153 0H1a1 1 0 0 0-.822 1.569L4.63 8 .178 14.431A1 1 0 0 0 1 16h13.153a1.001 1.001 0 0 0 .823-.431l4.846-7a1 1 0 0 0 0-1.138Z" />
-                                                            </svg>
-                                                        </div>
-                                                        <div class="columns-1 ml-3">
-                                                            <div class="font-bold">
-                                                                flows
-                                                            </div>
-                                                            <div class="font-normal">
-                                                                Safeguard deployments.
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a>
-                                                    <div class="flex items-center text-gray-400 group p-1 rounded-lg">
-                                                        <div class="rounded-md bg-gray-200 p-3 m-1">
-                                                            <svg class="w-5 h-5 text-gray-400 drop-shadow-2xl mx-auto"
-                                                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                                                                fill="currentColor" viewBox="0 0 18 18">
-                                                                <path
-                                                                    d="M6.143 0H1.857A1.857 1.857 0 0 0 0 1.857v4.286C0 7.169.831 8 1.857 8h4.286A1.857 1.857 0 0 0 8 6.143V1.857A1.857 1.857 0 0 0 6.143 0Zm10 0h-4.286A1.857 1.857 0 0 0 10 1.857v4.286C10 7.169 10.831 8 11.857 8h4.286A1.857 1.857 0 0 0 18 6.143V1.857A1.857 1.857 0 0 0 16.143 0Zm-10 10H1.857A1.857 1.857 0 0 0 0 11.857v4.286C0 17.169.831 18 1.857 18h4.286A1.857 1.857 0 0 0 8 16.143v-4.286A1.857 1.857 0 0 0 6.143 10Zm10 0h-4.286A1.857 1.857 0 0 0 10 11.857v4.286c0 1.026.831 1.857 1.857 1.857h4.286A1.857 1.857 0 0 0 18 16.143v-4.286A1.857 1.857 0 0 0 16.143 10Z" />
-                                                            </svg>
-                                                        </div>
-                                                        <div class="columns-1 ml-3">
-                                                            <div class="font-bold">
-                                                                zones
-                                                            </div>
-                                                            <div class="font-normal">
-                                                                Coordinate stakeholders.
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
                                 <a href="/blog/"
                                     class="block py-2 px-3 text-cyan-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-cyan-600 md:p-0      "
                                     aria-current="page">Blog</a>
+                            </li>
+                            <li>
+                                <a href="https://console.straumli.ai/"
+                                    class="block py-2 px-3 text-cyan-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-cyan-600 md:p-0      "
+                                    aria-current="page">Console</a>
                             </li>
                         </ul>
                     </div>
@@ -258,9 +134,9 @@
                 </p>
                 <div
                     class="flex flex-col mt-12 mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-                    <a href="#sota-auditing"
+                    <a href="https://console.straumli.ai/"
                         class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-cyan-600 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 ">
-                        Learn more
+                        Get started
                         <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
                             xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
@@ -268,9 +144,9 @@
                                 clip-rule="evenodd"></path>
                         </svg>
                     </a>
-                    <a href="#cta"
+                    <a href="https://calendly.com/paul-from-straumli/demo"
                         class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100">
-                        Get an audit
+                        Book a demo
                     </a>
                 </div>
             </div>
@@ -920,7 +796,7 @@
     <div class="bg-white" id="cta">
         <div class="mx-auto max-w-screen-xl py-24 sm:py-32">
             <div
-                class="relative isolate overflow-hidden bg-gradient-to-br from-cyan-800 to-cyan-300 px-6 pt-16 shadow-2xl xl:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+                class="relative isolate overflow-hidden bg-gradient-to-br from-cyan-800 to-cyan-300 px-6 pt-16 shadow-2xl xl:rounded-2xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
                 <svg viewBox="0 0 1024 1024"
                     class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
                     aria-hidden="true">
@@ -934,19 +810,22 @@
                     </defs>
                 </svg>
                 <div class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-                    <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Is your model safe?<br>Request
-                        a free audit today.</h2>
+                    <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Is your model
+                        safe?<br>Run
+                        your first
+                        eval today.</h2>
                     <p class="mt-6 text-lg leading-7 text-white">As part of our mission to help teams like yours ship
-                        safe AI faster, we're rolling out a limited preview of our managed auditing solution.</p>
-                    <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-                        <a href="https://forms.gle/QBXJL7T75fy6qC6d6"
-                            class="rounded-md bg-cyan-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Request
-                            audit</a>
+                        safe AI faster, we're rolling out the world's first self-serve evaluations for AI misuse.
+                    </p>
+                    <div class="mt-8 flex items-center justify-center gap-x-6 lg:justify-start">
+                        <a href="https://console.straumli.ai/"
+                            class="rounded-md bg-cyan-900 px-3.5 py-2.5 text-lg font-semibold text-white shadow-3xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Get
+                            started</a>
                     </div>
                 </div>
                 <div class="relative mt-16 h-80 lg:mt-8">
-                    <img class="absolute left-0 top-0 w-[50rem] max-w-none rounded-md shadow-2xl bg-white/5 ring-1 ring-white/10"
-                        src="/report.png">
+                    <img class="absolute left-0 top-0 w-[58rem] max-w-none rounded-md shadow-2xl bg-white/5 ring-1 ring-white/10"
+                        src="/launcheval.png">
                 </div>
             </div>
         </div>
